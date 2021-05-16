@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e31afd08.chunk.css",
+    "main.css": "/Portfolio/static/css/main.dce6a741.chunk.css",
     "main.js": "/Portfolio/static/js/main.a517136f.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.a517136f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.f917e242.js",
@@ -10,8 +10,9 @@
     "static/js/3.abe70e9d.chunk.js": "/Portfolio/static/js/3.abe70e9d.chunk.js",
     "static/js/3.abe70e9d.chunk.js.map": "/Portfolio/static/js/3.abe70e9d.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.e31afd08.chunk.css.map": "/Portfolio/static/css/main.e31afd08.chunk.css.map",
+    "static/css/main.dce6a741.chunk.css.map": "/Portfolio/static/css/main.dce6a741.chunk.css.map",
     "static/js/2.bef86618.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.bef86618.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Portfolio/static/media/Inkfree.0f15d867.ttf",
     "static/media/hacktober.17157992.png": "/Portfolio/static/media/hacktober.17157992.png",
     "static/media/luggage.644f951c.png": "/Portfolio/static/media/luggage.644f951c.png",
     "static/media/mor.30c93a55.jpg": "/Portfolio/static/media/mor.30c93a55.jpg",
@@ -20,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.f917e242.js",
     "static/js/2.bef86618.chunk.js",
-    "static/css/main.e31afd08.chunk.css",
+    "static/css/main.dce6a741.chunk.css",
     "static/js/main.a517136f.chunk.js"
   ]
 }
