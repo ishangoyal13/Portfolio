@@ -1,0 +1,137 @@
+/****************** icon spin on hover ******************************/
+
+.icon-spin1,.icon-spin2,.icon-spin3,.icon-spin4,.icon-spin5{
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.icon-spin1:hover,.icon-spin2:hover,.icon-spin3:hover,.icon-spin4:hover,.icon-spin5:hover{
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/********************************************************/
+#footer{
+    margin-top:50px ;
+    margin-bottom: 30px;
+}
+
+
+.footer-text{
+    font-family:cursive;
+    text-align: center;
+    margin-left: 50px;
+    margin-right:auto ;
+    margin-top: 30px;
+}
+
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width: 768px){
+.col-sm-12 {
+    width: 100%;
+}}
+.footer-div{
+    display: block;
+    box-sizing: border-box;
+}
+.social-network{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    text-align: center;
+}
+.social-network li{
+    display:inline-block;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+}
+.social-network a {
+    display: block;
+    position: relative;
+    margin: 0 7px;
+    width: 45px;
+    height: 45px;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: #fff;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.social-network a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    margin-top: -50%;
+    margin-left: -50%;
+    border-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.social-network a {
+    position: relative;
+    display: block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 47px;
+}
+.icon-spin2:hover{
+    background-color: #25D366;
+    border-radius: 100px;
+}
+.icon-spin3:hover{
+    background-color: #1DA1F2;
+    border-radius: 100px;
+}
+.icon-spin5:hover{
+    background-color: #E60023;
+    border-radius: 100px;
+}
+.icon-spin4:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 100px;
+}
+.icon-spin1:hover{
+    background-color: #4267B2;
+    border-radius: 100px;
+    border: 0;
+}

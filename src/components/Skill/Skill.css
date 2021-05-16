@@ -1,0 +1,116 @@
+/*********************** function softwareSkill ccs **************************************/
+
+#skills{
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-top:auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.software-skill-inline > i {
+    color: #868e96;
+}
+
+.software-skill-inline > i:hover {
+    color: #645beb;
+}
+.software-skill-inline > p {
+    color: #868e96;
+    font-size: 10px;
+}
+.software-skill-inline > i:hover ~ p{
+    color: #645beb;
+}
+
+/********************* function skill css below ********************************/
+
+.skills-main-div {
+    display: flex;
+}
+.skills-text-div {
+    color: #868e96;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.skills-main-div > * {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+  /* newly added block - start */
+.skills-image-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  /* newly added block - end */
+
+.skills-image-div > img {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.skills-heading {
+    font-size: 56px;
+    font-weight: 400;
+    color: black;
+}
+.skills-text {
+    font-size: 20px;
+    }
+.skills-text-subtitle {
+    font-size: 20px;
+}
+
+  /* Media Query */
+@media (max-width: 1380px) {
+    .skills-heading {
+    font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .skills-heading {
+    font-size: 30px;
+    text-align: center;
+    }
+.greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+}
+.skills-main-div {
+    flex-direction: column
+}
+.skills-text-div {
+    margin-left: 0px;
+    margin: 20px;
+}
+.skills-text {
+    font-size: 16px;
+    }
+.skills-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+    }
+.skills-image-div {
+      /* display: none; */
+    order: 2;
+    }
+}

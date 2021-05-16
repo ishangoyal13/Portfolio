@@ -1,0 +1,229 @@
+.greet-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 35px;
+}
+
+.gretting-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.greeting-main {
+    display: flex;
+}
+
+.greeting-main>* {
+    flex: 1;
+    margin-bottom: -35px;
+}
+.greeting-text {
+    font-size: 60px;
+    line-height: 1.1;
+    font-family: 'Inkfree';
+}
+
+.greeting-text-p {
+    font-size: 20px;
+    line-height: 60px;
+    font-family: monospace;
+}
+
+/* newly added block - start */
+
+.greeting-image-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* newly added block - end */
+
+.greeting-image-div>img {
+    max-width: 100%;
+    height: 500px;
+}
+
+.wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(-10deg);
+    }
+    20% {
+        transform: rotate(12deg);
+    }
+    30% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(9deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+    .greeting-text {
+        font-size: 50px;
+    }
+    .greeting-text-p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-greeting-div {
+        justify-content: space-around;
+    }
+    .greeting-text {
+        font-size: 30px;
+        text-align: center;
+    }
+    .greeting-text-p {
+        font-size: 16px;
+        line-height: normal;
+        text-align: center;
+    }
+    .greeting-main {
+        display: block;
+    }
+}
+/*************texture effect at bottom *************/
+.overlay {
+    background: linear-gradient( 30deg, #8e45ae 12%, transparent 12.5%, transparent 87%, #8e45ae 87.5%, #8e45ae 0), linear-gradient( 150deg, #8e45ae 12%, transparent 12.5%, transparent 87%, #8e45ae 87.5%, #8e45ae 0), linear-gradient( 30deg, #8e45ae 12%, transparent 12.5%, transparent 87%, #8e45ae 87.5%, #8e45ae 0), linear-gradient( 150deg, #8e45ae 12%, transparent 12.5%, transparent 87%, #8e45ae 87.5%, #8e45ae 0), linear-gradient( 60deg, #9f59bd 25%, transparent 25.5%, transparent 75%, #9f59bd 75%, #9f59bd 0), linear-gradient( 60deg, #9f59bd 25%, transparent 25.5%, transparent 75%, #9f59bd 75%, #9f59bd 0), #793b94;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    background-size: 80px 140px;
+    width: 100%;
+    height: 155px;
+    bottom: 0;
+    opacity: .5;
+}
+
+/*************************greeting icons css ********************/
+/****************** icon spin on hover ******************************/
+
+.icon-spin6,.icon-spin7,.icon-spin8,.icon-spin9,.icon-spin10{
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.icon-spin6:hover,.icon-spin7:hover,.icon-spin8:hover,.icon-spin9:hover,.icon-spin10:hover{
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/********************************************************/
+
+.greeting-icon-div{
+    display: flex;
+    margin-right:auto;
+    margin-left: auto;
+}
+.greeting-icons{
+    display: flex;
+    list-style-type: disc;
+    margin-top: 30px;
+}
+.greeting-icons li{
+    display:inline-block;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+}
+.greeting-icons a {
+    display: block;
+    position: relative;
+    margin: 0 7px;
+    width: 45px;
+    height: 45px;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: #fff;
+    background-color: transparent;
+}
+.greeting-icons a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    margin-top: -50%;
+    margin-left: -50%;
+    border-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.greeting-icons a {
+    position: relative;
+    display: block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 47px;
+}
+.icon-spin6:hover{
+    background-color: #211F1F;
+    border-radius: 100px;
+}
+.icon-spin8:hover{
+    background-color: #1DA1F2;
+    border-radius: 100px;
+}
+.icon-spin10:hover{
+    background-color: #E60023;
+    border-radius: 100px;
+}
+.icon-spin7:hover{
+    background: #2867B2;
+    border-radius: 100px;
+}
+.icon-spin9:hover{
+    background-color: rgb(35, 190, 113);
+    border-radius: 100px;
+    border: 0;
+}
+

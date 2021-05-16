@@ -1,0 +1,74 @@
+.block1{
+    color:white;
+}
+.icon-list1{
+    list-style: none;
+    font-family: monospace;
+    font-weight: 500;
+}
+.skill-heading3 {
+    display: block;
+    font-size: 1.6em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: -5px;
+    font-weight: 750;
+}
+.contact-head{
+    margin-top: 30px;
+}
+.form-group{
+    background: 0 0;
+    border: 0;
+    color: #fff;
+    border-radius: 0;
+    border-top: 2px solid transparent;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid #fff;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 255, 255);
+    box-shadow: none;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-control{
+    background-color: transparent;
+    border:0;
+    color:cornsilk
+}
+.form-control:focus {
+
+    background-color : transparent; 
+    transition: 0.3s ease-in-out;
+    outline: 2px solid white;
+    border-bottom: none;
+    border: none;
+    box-shadow: 0px 0px 0px;
+    color: cornsilk;
+}
+
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #efadbe;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #efadbe;
+}
+
+
+.form-control::placeholder { /* Firefox, Chrome, Opera */
+    color: #efadbe;
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #efadbe;
+}
+
+
+

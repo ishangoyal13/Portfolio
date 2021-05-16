@@ -1,0 +1,88 @@
+#about{
+    background-color: white;
+    color: orange;
+    width: 100%;
+    margin-left: auto;
+    margin-top:auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.block{
+    color: black;
+}
+
+.skill-heading3 {
+    display: block;
+    font-size: 16px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.skill-heading4 {
+    color: #555;
+    font-size: 16px;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.col-md-5, .col-sm-4,.col-xs-12,.row,.block,
+.col-md-4, .col-sm-4,.colxs-6,h3{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.para1 {
+    margin: 0 0 10px;
+    font-family:  MAIAN;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.para1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.icon-list{
+    list-style: none;
+    font-family: Inkfree;
+}
+
+.spinner {
+    animation: spin infinite 3s linear;
+
+    /*You can increase or decrease the timer (5s) to 
+    increase or decrease the speed of the spinner*/
+}
+
+@keyframes spin {
+    from {
+    transform: rotate(0deg);
+}
+    to {
+    transform: rotate(360deg);
+}
+}
+@media(min-width:572px){
+    .about-div{
+        word-wrap: break-word;
+    }
+}
