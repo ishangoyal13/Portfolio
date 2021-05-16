@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e31afd08.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a517136f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a517136f.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.f917e242.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f917e242.js.map",
+    "static/js/2.bef86618.chunk.js": "/Portfolio/static/js/2.bef86618.chunk.js",
+    "static/js/2.bef86618.chunk.js.map": "/Portfolio/static/js/2.bef86618.chunk.js.map",
+    "static/js/3.abe70e9d.chunk.js": "/Portfolio/static/js/3.abe70e9d.chunk.js",
+    "static/js/3.abe70e9d.chunk.js.map": "/Portfolio/static/js/3.abe70e9d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.e31afd08.chunk.css.map": "/Portfolio/static/css/main.e31afd08.chunk.css.map",
+    "static/js/2.bef86618.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.bef86618.chunk.js.LICENSE.txt",
+    "static/media/hacktober.17157992.png": "/Portfolio/static/media/hacktober.17157992.png",
+    "static/media/luggage.644f951c.png": "/Portfolio/static/media/luggage.644f951c.png",
+    "static/media/mor.30c93a55.jpg": "/Portfolio/static/media/mor.30c93a55.jpg",
+    "static/media/profile2.fbe6ce32.jpeg": "/Portfolio/static/media/profile2.fbe6ce32.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f917e242.js",
+    "static/js/2.bef86618.chunk.js",
+    "static/css/main.e31afd08.chunk.css",
+    "static/js/main.a517136f.chunk.js"
+  ]
+}
