@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-    <img src="BharatKammakatla.gif"></img>
+    <img src="portfolio.gif"></img>
   </kbd>
 </p>
 
