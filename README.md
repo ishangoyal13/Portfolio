@@ -17,9 +17,6 @@ Just change `src/portfolio.js` to get your personal portfolio . Feel free to use
 ✔️ Summary and About me\
 ✔️ Skills\
 ✔️ Projects\
-✔️ Certificates\
-✔️ Blogs\
 ✔️ Contact me\
-✔️ Github Profile
 
 To view a live example, **[click here]( https://ishangoyal13.github.io/Portfolio/)**
