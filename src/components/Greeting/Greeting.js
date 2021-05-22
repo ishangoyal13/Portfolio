@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import "./Greeting.css";
-import greeting from "../../portfolioDetails";
+import greeting, { socialLinks } from "../../portfolioDetails";
 import emoji from "react-easy-emoji";
 import { Roll } from 'react-reveal'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,8 +16,7 @@ export default function Greeting() {
                         <div className="greeting-text-div">
                             <div>
                                 <h1 className="greeting-text">
-                                    {" "}
-                                    {greeting.title}{" "}
+                                    {" "}{greeting.title}{" "}
                                     <span className="wave-emoji">{emoji("👋")}</span>
                                 </h1>
                                 <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
@@ -27,19 +26,19 @@ export default function Greeting() {
                                 <ul className="greeting-icons">
 
                                     <li>
-                                        <a href="https://github.com/ishangoyal13" className="icon-spin6"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                                        <a href={socialLinks.github} className="icon-spin6"><FontAwesomeIcon icon={['fab', 'github']} /></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/ishan-goyal-99984a190/" className="icon-spin7"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
+                                        <a href={socialLinks.linkedin} className="icon-spin7"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/IshanGoyal1308" className="icon-spin8"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+                                        <a href={socialLinks.twitter} className="icon-spin8"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.hackerrank.com/ishangoyal13" className="icon-spin9"><FontAwesomeIcon icon={['fab', 'hackerrank']} /></a>
+                                        <a href={socialLinks.hackerrank} className="icon-spin9"><FontAwesomeIcon icon={['fab', 'hackerrank']} /></a>
                                     </li>
                                     <li>
-                                        <a href="https://pinterest.com/ishangoyal1305" className="icon-spin10"><FontAwesomeIcon icon={['fab', 'pinterest-p']} /></a>
+                                        <a href={socialLinks.pinterest} className="icon-spin10"><FontAwesomeIcon icon={['fab', 'pinterest-p']} /></a>
                                     </li>
                                 </ul>
 

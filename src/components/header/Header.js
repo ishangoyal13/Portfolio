@@ -10,13 +10,13 @@ function Header() {
         <header className="header" id="header">
         <a href="" className="logo">
         
-        <span className="grey-color"> &lt;</span>  
-        <span className="logo-name">{greeting.username}</span>
-        <span className="grey-color">/&gt;</span>
+            <span className="grey-color"> &lt;</span>  {/*less than sign in navbar*/}
+            <span className="logo-name">{greeting.username}</span> 
+            <span className="grey-color">/&gt;</span>   {/*greater than sign in navbar*/}
         
         </a>
         
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <input className="menu-btn" type="checkbox" id="menu-btn" />  {/*nav icon on small screens*/}
         <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
         </label>

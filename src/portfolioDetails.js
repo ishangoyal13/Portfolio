@@ -8,6 +8,17 @@ const greeting = {
     )
 }
 
+const socialLinks ={
+github:"https://github.com/ishangoyal13",
+linkedin:"https://www.linkedin.com/in/ishan-goyal-99984a190/",
+hackerrank:"https://www.hackerrank.com/ishangoyal13",
+pinterest:"https://pinterest.com/ishangoyal1305",
+twitter:"https://twitter.com/IshanGoyal1308",
+instagram:"https://www.instagram.com/ishan_goyal13/",
+whatsapp:"https://wa.me/919877228288",
+facebook:"https://www.facebook.com/ishan.goyal1305"
+}
+
 
 const aboutSection={
     title:"  About Me",
@@ -111,4 +122,4 @@ const skillsSection = {
 
 
 export default greeting;
-export {aboutSection,skillsSection,contactSection,footerText};
+export {aboutSection,skillsSection,contactSection,footerText,socialLinks};

@@ -32,7 +32,6 @@
     font-family: monospace;
 }
 
-/* newly added block - start */
 
 .greeting-image-div {
     display: flex;
@@ -40,13 +39,13 @@
     justify-content: center;
 }
 
-/* newly added block - end */
 
 .greeting-image-div>img {
     max-width: 100%;
     height: 500px;
 }
 
+/******** waving the emoji ****************/
 .wave-emoji {
     animation-duration: 1.8s;
     animation-iteration-count: infinite;
@@ -78,6 +77,7 @@
         transform: rotate(0deg);
     }
 }
+/*************************************************/
 
 /* Media Query */
 
@@ -118,8 +118,9 @@
     opacity: .5;
 }
 
-/*************************greeting icons css ********************/
-/****************** icon spin on hover ******************************/
+/******************************greeting icons css ********************************************/
+
+/************ icon spin on hover **************/
 
 .icon-spin6,.icon-spin7,.icon-spin8,.icon-spin9,.icon-spin10{
     -webkit-transition: all 0.6s ease-in-out;
@@ -136,7 +137,7 @@
     transform: rotate(360deg);
 }
 
-/********************************************************/
+/******************************************/
 
 .greeting-icon-div{
     display: flex;
