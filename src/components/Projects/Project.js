@@ -3,7 +3,7 @@ import './Project.css';
 import Card from 'react-bootstrap/Card';
 import {Button} from 'react-bootstrap';
 import luggage from '../../assets/images/luggage.png';
-import hacktober from '../../assets/images/hacktober.png';
+import snake from '../../assets/images/snake.ico';
 import mor from '../../assets/images/mor.jpg';
 
 export default class Projects extends React.Component {
@@ -25,13 +25,13 @@ export default class Projects extends React.Component {
                 </Card>
         
                 <Card className="card"  bg="light">
-                    <Card.Img variant="top" src={hacktober} className="card-image" />
+                    <Card.Img variant="top" src={snake} className="card-image" />
                     <Card.Body>
-                        <Card.Title>Hacktober Fest</Card.Title>
+                        <Card.Title>Snake Game</Card.Title>
                         <Card.Text>
-                            Created a public repo for Hacktober Fest 2020 💥
+                            All time favourite Snake Game 🐍
                         </Card.Text>
-                        <a href="https://github.com/ishangoyal13/HacktoberFest2020"><Button variant="primary">Check repo</Button></a>
+                        <a href="https://ishangoyal13.github.io/Snake-Game/"><Button variant="primary">Play Game</Button></a>
                     </Card.Body>
                 </Card>
                 

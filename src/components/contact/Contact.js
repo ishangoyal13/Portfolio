@@ -78,30 +78,31 @@ export default function Contact() {
                 </div>
             </section>
             {/*  message box */}
+            <form action="https://formsubmit.co/ishan.goyal1305@gmail.com" method="POST">
             <div class="row">
                     <div class="col-sm-6 col-xs-12">
                     {/* colspan */}
                     <div class="form-group">
                         <label for="exampleFormControlInput1" className="form-label">Name</label>
-                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Ishan Goyal" />
+                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="xyz" name="text" />
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1" className="form-label">Email address</label>
-                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="xyz@gmail.com" />
+                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="xyz@gmail.com" name="email" required />
                     </div>
 
                 </div>
                 <div class="col-sm-6 col-xs-12">                
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1" className="form-label">Message</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter your message"></textarea>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter your message" name="message"></textarea>
                 </div>
             </div></div>
 
             <div class="text-center">
                 <button type="submit" class="btn btn-success">Send Message</button>
             </div>
-
+            </form>
         </contact>
     );
 }
