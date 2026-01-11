@@ -1,7 +1,6 @@
 ﻿import React from "react";
 import "./Greeting.css";
 import greeting, { socialLinks } from "../../portfolioDetails";
-import emoji from "react-easy-emoji";
 import { Roll } from 'react-reveal'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import profile2 from '../../assets/images/profile2.jpeg';
@@ -17,7 +16,7 @@ export default function Greeting() {
                             <div>
                                 <h1 className="greeting-text">
                                     {" "}{greeting.title}{" "}
-                                    <span className="wave-emoji">{emoji("👋")}</span>
+                                    <span className="wave-emoji">👋</span>
                                 </h1>
                                 <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
 
@@ -53,7 +52,7 @@ export default function Greeting() {
                 </Roll>
 
             </div>
-            <div class="overlay"></div> {/*textured css effect at bottom*/}
+            <div className="overlay"></div> {/*textured css effect at bottom*/}
         </>
 
 

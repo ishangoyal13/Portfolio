@@ -1,11 +1,7 @@
-import emoji from 'react-easy-emoji';
-
 const greeting = {
     username: "Ishan Goyal",
     title: "Hey there! I'm Ishan",
-    subTitle: emoji(
-        "Front End Developer 👨‍💻 | Student 🤖 | Chitkara University 🎓"
-    )
+    subTitle: "Front End Developer 👨‍💻 | Student 🤖 | Chitkara University 🎓"
 }
 
 const socialLinks ={
@@ -37,14 +33,9 @@ const skillsSection = {
     subTitle:
     "CURRENTLY STUDYING IN CHITKARA UNIVERSITY AND EXPLORING COMPUTER SCIENCE",
     skills: [
-    emoji(
-        "⚡ Working on data structures and algorithms of Java"
-    ),
-    emoji("⚡ Learning FrontEnd Development"),
-    
-    emoji(
+        "⚡ Working on data structures and algorithms of Java",
+        "⚡ Learning FrontEnd Development",
         "⚡ Building predictive models to extract insights and make decisions out of data"
-    ),
     ],
     
     softwareSkills: [
@@ -115,9 +106,7 @@ const skillsSection = {
         add:"Punjab, India"
     }
     const footerText={
-        subTitle: emoji(
-            "Made with ❤ by Ishan Goyal"
-        )
+        subTitle: "Made with ❤ by Ishan Goyal"
     }
 
 
